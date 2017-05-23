@@ -1,0 +1,1287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Include\DataBase">
+      <UniqueIdentifier>{6c88cf5b-b5b1-4cc8-b219-8d6f0dd54ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\UI">
+      <UniqueIdentifier>{2b054103-92f9-4de0-9671-a77959047b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\DataBase">
+      <UniqueIdentifier>{75acb48a-c11c-4fe3-8e08-517823dfc6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\UI">
+      <UniqueIdentifier>{78a5f911-08db-4643-ae58-94b95f8313e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\SIM">
+      <UniqueIdentifier>{0700f0f6-3cef-47e9-bd25-62579fb4af28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\UI\DBEdit">
+      <UniqueIdentifier>{1fa6eb78-623e-487d-99d0-bd0ed2b7acca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\UI\DBEdit">
+      <UniqueIdentifier>{1412974d-696d-4a20-a5dd-a7eddba08233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FormFiles">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="SourceFiles\SIM\UNITS">
+      <UniqueIdentifier>{31d8dffe-8ba4-4dce-a85e-8e0e3ee97c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\UI\Map">
+      <UniqueIdentifier>{f545adb3-72ef-4e11-a14d-5bc23e7dd85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\UI\Map">
+      <UniqueIdentifier>{63d22b4f-6548-4494-9426-68aa551f5929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeneratedFiles">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="GeneratedFiles\Debug">
+      <UniqueIdentifier>{70314013-031f-4219-a4a0-867f7c157b7b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="GeneratedFiles\Release">
+      <UniqueIdentifier>{cb77ed16-7e6e-4932-857f-f8a82baa39c6}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Include\UI\Scenario">
+      <UniqueIdentifier>{bf52b13e-4f72-4095-a8cd-6f5283666708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\UI\Scenario">
+      <UniqueIdentifier>{23a4ab9a-5b70-4197-8daa-7cbf48ce2980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\SIM">
+      <UniqueIdentifier>{8c284980-00ef-461d-9479-30d6bda98d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\SIM\UNITS">
+      <UniqueIdentifier>{1440ae7c-521d-4799-a361-87ff1142ee29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\storm.cpp">
+      <Filter>SourceFiles\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\S_Entity.Cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="StormStart.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\S_Hawkeye.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\FlightControlSystem.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\IntertialSystem.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\S_HawkeyeCommandCenter.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\Utility.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\Entity.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\HawkeyesCPU.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\HRadar.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\RTIStation.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\S_SimControl.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\GlobalData.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\Log.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\UNITS\Vectors.cpp">
+      <Filter>SourceFiles\SIM\UNITS</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\UNITS\World3D.cpp">
+      <Filter>SourceFiles\SIM\UNITS</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\UNITS\Physic.cpp">
+      <Filter>SourceFiles\SIM\UNITS</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\UNITS\AuxFuncs.cpp">
+      <Filter>SourceFiles\SIM\UNITS</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\UNITS\DynamicSystems.cpp">
+      <Filter>SourceFiles\SIM\UNITS</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TAirplaneWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\THawCPUWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TMBJamStationWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TRTIStationWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TAntishipMissileWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TGunWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\THelicopterRadarWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TSparrowRadarWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TFreRangeWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TGnrlRadarWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TMissileWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TPatrolTimeWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TASMAngleWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TExtTankWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TGuidRadarWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\THawkRadarWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TJamRadarWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TSAMSeekerWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TSAMTargetWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TSAMWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TSeekerWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TShipWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\PrwJamStationWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TAAGRadarWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TASMQuantityWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TDetectStationWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TEnvWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TFighterRadarWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TFightInrtlSysWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\THeatTargetWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TWeaponVarWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TShipLaunchWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TStrapInerSysWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TTargetCroSecWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TWarHelicopterWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\_Dialog_Base.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\DBSubWindow.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\Map\graphics2D.cpp">
+      <Filter>SourceFiles\UI\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\Map\graphics2Dmap.cpp">
+      <Filter>SourceFiles\UI\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\UNITS\Flyers.cpp">
+      <Filter>SourceFiles\SIM\UNITS</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\UNITS\Mobiles.cpp">
+      <Filter>SourceFiles\SIM\UNITS</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\SimpleAirplane.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\GuidedFlyers.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\GuidedObjects.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\Pathways.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TFighterElintWidget.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\DBEdit\TPhasedArrayRadar.cpp">
+      <Filter>SourceFiles\UI\DBEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TPhasedArrayRadar.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc__Dialog_Base.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DBSubWindow.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_graphics2D.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_graphics2Dmap.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_storm.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TAAGRadarWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TAirplaneWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TAntishipMissileWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TASMAngleWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TASMQuantityWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TDetectStationWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TEnvWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TExtTankWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TFighterElintWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TFighterRadarWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TFightInrtlSysWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TFreRangeWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TGnrlRadarWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TGuidRadarWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TGunWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_THawCPUWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_THawkRadarWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_THeatTargetWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_THelicopterRadarWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TJamRadarWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TMBJamStationWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TMissileWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TPatrolTimeWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TPrwJamStationWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TRTIStationWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TSAMSeekerWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TSAMTargetWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TSAMWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TSeekerWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TShipLaunchWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TShipWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TSparrowRadarWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TStrapInerSysWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TTargetCroSecWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TWarHelicopterWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TWeaponVarWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_storm.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\UNITS\Histories.cpp">
+      <Filter>SourceFiles\SIM\UNITS</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\UNITS\StdPoints.cpp">
+      <Filter>SourceFiles\SIM\UNITS</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\GnrlPurposeRadar.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\Jammer.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\MultipleTarget.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\Prowler.cpp">
+      <Filter>SourceFiles\SIM</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\DataBase\AccessData.cpp">
+      <Filter>SourceFiles\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\DataBase\DBUtil.cpp">
+      <Filter>SourceFiles\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\SIM\UNITS\MatchVectors.cpp">
+      <Filter>SourceFiles\SIM\UNITS</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\Scenario\SFighterWidget.cpp">
+      <Filter>SourceFiles\UI\Scenario</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SFighterWidget.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SProwlerWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SProwlerWidget.cpp">
+      <Filter>GeneratedFiles\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\Scenario\SProwlerWidget.cpp">
+      <Filter>SourceFiles\UI\Scenario</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SHawkeyeWidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SHawkeyeWidget.cpp">
+      <Filter>GeneratedFiles\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\UI\Scenario\SHawkeyeWidget.cpp">
+      <Filter>SourceFiles\UI\Scenario</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Include\UI\storm.h">
+      <Filter>Include\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TGunWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TShipWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TAirplaneWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TMissileWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TWarHelicopterWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TAntishipMissileWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TASMAngleWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TASMQuantityWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TSeekerWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TEnvWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TGuidRadarWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TGnrlRadarWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TJamRadarWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\THawkRadarWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TSAMTargetWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TSAMSeekerWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TSAMWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TShipLaunchWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TSparrowRadarWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TAAGRadarWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TFighterRadarWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\THelicopterRadarWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TAirplaneWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TFightInrtlSysWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TDetectStationWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TWeaponVarWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TTargetCroSecWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TStrapInerSysWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TRTIStationWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TPrwJamStationWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TPatrolTimeWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TMBJamStationWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\THeatTargetWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\THawCPUWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TFreRangeWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TExtTankWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\THelicopterRadarWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TFighterRadarWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TAAGRadarWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TEnvWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TASMAngleWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TSAMWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TJamRadarWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TSAMSeekerWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TSAMTargetWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\THawkRadarWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TShipLaunchWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TSparrowRadarWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TGuidRadarWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TGnrlRadarWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TSeekerWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TASMQuantityWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TAntishipMissileWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\DBSubWindow.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TMissileWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TWarHelicopterWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TGunWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TShipWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\_Dialog_Base.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\Map\graphics2D.h">
+      <Filter>Include\UI\Map</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\Map\graphics2Dmap.h">
+      <Filter>Include\UI\Map</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TFightInrtlSysWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TDetectStationWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TExtTankWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TFreRangeWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\THawCPUWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\THeatTargetWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TMBJamStationWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TPatrolTimeWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TPrwJamStationWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TRTIStationWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TStrapInerSysWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TTargetCroSecWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TWeaponVarWidget.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TFighterElintWidget1.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\TPhasedArrayRadar.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TFighterElintWidget.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\DBEdit\TPhasedArrayRadar.h">
+      <Filter>Include\UI\DBEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\storm.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\SFighter.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\storm.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\Scenario\SFighterWidget.h">
+      <Filter>Include\UI\Scenario</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\images.qrc">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\SProwler.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\Scenario\SProwlerWidget.h">
+      <Filter>Include\UI\Scenario</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\SHawkeye.ui">
+      <Filter>FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Include\UI\Scenario\SHawkeyeWidget.h">
+      <Filter>Include\UI\Scenario</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\SIM\stdafx.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\S_Entity.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\S_Hawkeye.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\FlightControlSystem.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\IntertialSystem.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\S_HawkeyeCommandCenter.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\Utility.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\HawkeyesCPU.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\HRadar.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\RTIStation.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\S_SimControl.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\GlobalData.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\Log.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\World3D.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\Vectors.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\Entity.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\GlobalVar.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\Physic.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\AuxFuncs.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\DynamicSystems.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\Flyers.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\Mobiles.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\SpaceObjects.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\SimpleAirplane.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\GuidedFlyers.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\GuidedObjects.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\Pathways.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TAAGRadarWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TAirplaneWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TAntishipMissileWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TASMAngleWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TASMQuantityWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TDetectStationWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TEnvWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TExtTankWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TFighterElintWidget1.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TFighterRadarWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TFightInrtlSysWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TFreRangeWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TGnrlRadarWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TGuidRadarWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TGunWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_THawCPUWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_THawkRadarWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_THeatTargetWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_THelicopterRadarWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TJamRadarWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TMBJamStationWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TMissileWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TPatrolTimeWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TPhasedArrayRadar.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TPrwJamStationWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TRTIStationWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TSAMSeekerWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TSAMTargetWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TSAMWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TSeekerWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TShipLaunchWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TShipWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TSparrowRadarWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TStrapInerSysWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TTargetCroSecWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TWarHelicopterWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TWeaponVarWidget.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\Histories.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\StdPoints.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\SpaceObjects.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\SimpleAirplane.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\GuidedFlyers.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\GuidedObjects.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\Pathways.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_AAGRadar.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Airplanes.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_AntishipMissiles.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ASMAnglesAndRanges.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ASMDestroyProbability.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_DetectionStations.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Environment.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ExternalTanks.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_FighterInertialSystems.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_FighterRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_FireZones.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Flexels.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_GnrlPurposeRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_GroupPlanes.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_GuidanceRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Guns.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_HawkeyeRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_HawkeyesCPUs.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_HeatTargets.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_HelicopterRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_HitProbability.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Interceptors.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_JammerELINT.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_JammingPlanes.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Missiles.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_MultiBeamJammingStations.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ObjectList.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_PatrolTimes.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_PhasedArrayRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Profiles.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Carriers.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ProwlerJammingStations.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_RadarStations.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_RequiredQuantityOfASM.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_RTIStations.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Sdis.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Seekers.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ShipborneRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ShipLaunchers.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_SparrowRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_StrapDownInertialSystems.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_SurfaceToAirMissiles.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_SurfaceToAirMissilesGSN.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_SurfaceToAirMissilesWr0DeltaMax.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Targets.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_test.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_TypicalFrequencyRanges.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_WarHelicopters.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_WeaponVariants.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\MultipleTarget.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\GnrlPurposeRadar.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\Jammer.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\Prowler.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\ShipborneRadar.h">
+      <Filter>Include\SIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\AccessData.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_AAGRadar.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Airplanes.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_AntishipMissiles.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ASMAnglesAndRanges.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ASMDestroyProbability.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_carriers.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_DetectionStations.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Entity.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Environment.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ExternalTanks.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_FighterInertialSystems.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_FighterRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_FireZones.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Flexels.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Flyer.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_GnrlPurposeRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_GroupPlanes.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_GuidanceRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Guns.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_HawkeyeRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_HawkeyesCPUs.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_HeatTargets.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_HelicopterRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_HitProbability.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Interceptors.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_JammerELINT.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_JammingPlanes.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Missiles.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_MultiBeamJammingStations.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ObjectList.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_PatrolTimes.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_PhasedArrayRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Profiles.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ProwlerJammingStations.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_RadarStations.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_RequiredQuantityOfASM.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_RTIStations.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Sdis.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Seekers.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ShipborneRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_ShipLaunchers.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_SparrowRadars.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_StrapDownInertialSystems.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_SurfaceToAirMissiles.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_SurfaceToAirMissilesGSN.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_SurfaceToAirMissilesWr0DeltaMax.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_Targets.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_test.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_TypicalFrequencyRanges.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_WarHelicopters.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DB_WeaponVariants.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataBase\DBUtil.h">
+      <Filter>Include\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SIM\UNITS\MatchVectors.h">
+      <Filter>Include\SIM\UNITS</Filter>
+    </ClInclude>
+    <ClInclude Include="StormStart.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SFighter.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SProwler.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SHawkeye.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Objects.par" />
+    <None Include="speedes.par" />
+    <None Include="InterestSpaces.par" />
+  </ItemGroup>
+</Project>
